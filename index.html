@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <title>Thandavn Form</title>
+</head>
+<body>
+  <div>
+    <div class="container">
+      <h1 class="title">User Registration</h1>
+      <div class="form">
+        <form action="" autocomplete="on">
+          <div class="form-body">
+            <div class="name body">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="uname body">
+              <label for="uname">User Name</label>
+              <input type="text" id="uname" placeholder="Enter username" required autocomplete="off">
+            </div>
+            <div class="password body">
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Enter your password" required autocomplete="off">
+            </div>
+            <div class="email body">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter your password" required autocomplete="off">
+            </div>
+            <div class="dob body">
+              <label for="dob">DOB </label>
+              <input type="date" id="dob" placeholder="Enter your name" required>
+            </div>
+            <div class="gender body">
+              <label class="gen">Gender </label>
+              <input type="radio" id="male" name="gender" required>
+              <label class="checkbox" for="male">Male</label>
+              <input type="radio" id="female" name="gender" required>
+              <label class="checkbox" for="female">Female</label>
+              <input type="radio" id="other" name="gender" required>
+              <label class="checkbox" for="other">Other</label>
+            </div>
+            <div class="body qualification">
+              <label for="qualification">Qualification </label>
+              <select value="qualification" name="qualification" id="qualification" required>
+                <option value="select">Select</option>
+                <option value="sslc">SSLC</option>
+                <option value="hsc">HSC</option>
+                <option value="diploma">Diploma</option>
+                <option value="ug">UG</option>
+                <option value="pg">PG</option>
+              </select>
+            </div>
+            <div class="body skills">
+              <label class="skil">Skills </label>
+              <input type="checkbox" id="java" name="skill" required>
+              <label class="skill" for="java">Java</label>
+              <input type="checkbox" id="html" name="skill" required>
+              <label class="skill" for="html">HTML</label>
+              <input type="checkbox" id="css" name="skill" required>
+              <label class="skill" for="css">CSS</label>
+            </div>
+            <div class="name body">
+              <label for="name">Resume</label>
+              <input type="file" id="name" accept="application/pdf" required>
+            </div>
+            <input class="submit" type="submit">
+            <p class="thank-you">Thank you...</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
