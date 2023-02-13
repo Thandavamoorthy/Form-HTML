@@ -33,7 +33,7 @@ input{
 }
 
 .container{
-    height: 100vh;
+    height: fit-content;
 }
 
 form{
@@ -43,7 +43,7 @@ form{
 
 .form{
     width: 800px;
-    height: 100vh;
+    height: fit-content;
     border: 3px solid rgb(7, 100, 143);
     border-radius: 25px;
     margin: auto;
@@ -58,7 +58,7 @@ form{
 
 .form-body{
     width: 85%;
-    height: 100vh;
+    height: fit-content;
 }
 
 .gender{
@@ -125,4 +125,5 @@ form{
     font-size: 1rem;
     color: rgb(11, 70, 70);
     font-weight: 500;
+    margin-bottom: 30px;
 }
